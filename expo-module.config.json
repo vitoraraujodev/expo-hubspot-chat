@@ -1,0 +1,10 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["HubspotChatModule"],
+    "appDelegateSubscribers": ["HubspotChatAppDelegateSubscriber"]
+  },
+  "android": {
+    "modules": ["expo.modules.hubspotchat.HubspotChatModule"]
+  }
+}

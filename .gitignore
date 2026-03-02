@@ -1,0 +1,7 @@
+# Build artifacts
+android/build/
+build/
+plugin/build/
+
+# Node
+node_modules/

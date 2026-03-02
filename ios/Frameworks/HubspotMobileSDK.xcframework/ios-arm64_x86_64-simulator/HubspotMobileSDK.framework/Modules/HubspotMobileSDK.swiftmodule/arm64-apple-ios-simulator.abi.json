@@ -1,0 +1,5250 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HubspotMobileSDK",
+    "printedName": "HubspotMobileSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HubspotEnvironment",
+        "printedName": "HubspotEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "qa",
+            "printedName": "qa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.HubspotEnvironment.Type) -> HubspotMobileSDK.HubspotEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotEnvironment",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                    "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HubspotEnvironment",
+                        "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                        "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK0A11EnvironmentO2qayA2CmF",
+            "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO2qayA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.HubspotEnvironment.Type) -> HubspotMobileSDK.HubspotEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotEnvironment",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                    "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HubspotEnvironment",
+                        "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                        "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK0A11EnvironmentO10productionyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO10productionyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A11EnvironmentO11descriptionSSvp",
+            "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO11descriptionSSvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A11EnvironmentO11descriptionSSvg",
+                "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO11descriptionSSvg",
+                "moduleName": "HubspotMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.HubspotEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotEnvironment",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                    "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A11EnvironmentO8rawValueSSvp",
+            "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO8rawValueSSvp",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A11EnvironmentO8rawValueSSvg",
+                "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO8rawValueSSvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16HubspotMobileSDK0A11EnvironmentO",
+        "mangledName": "$s16HubspotMobileSDK0A11EnvironmentO",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HubspotConfigError",
+        "printedName": "HubspotConfigError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingConfiguration",
+            "printedName": "missingConfiguration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.HubspotConfigError.Type) -> HubspotMobileSDK.HubspotConfigError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotConfigError",
+                    "printedName": "HubspotMobileSDK.HubspotConfigError",
+                    "usr": "s:16HubspotMobileSDK0A11ConfigErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.HubspotConfigError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HubspotConfigError",
+                        "printedName": "HubspotMobileSDK.HubspotConfigError",
+                        "usr": "s:16HubspotMobileSDK0A11ConfigErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO20missingConfigurationyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO20missingConfigurationyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "missingChatFlow",
+            "printedName": "missingChatFlow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.HubspotConfigError.Type) -> HubspotMobileSDK.HubspotConfigError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotConfigError",
+                    "printedName": "HubspotMobileSDK.HubspotConfigError",
+                    "usr": "s:16HubspotMobileSDK0A11ConfigErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.HubspotConfigError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HubspotConfigError",
+                        "printedName": "HubspotMobileSDK.HubspotConfigError",
+                        "usr": "s:16HubspotMobileSDK0A11ConfigErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO15missingChatFlowyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO15missingChatFlowyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO16errorDescriptionSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A11ConfigErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO16errorDescriptionSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO13failureReasonSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO13failureReasonSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A11ConfigErrorO13failureReasonSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO13failureReasonSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotConfigError",
+                "printedName": "HubspotMobileSDK.HubspotConfigError",
+                "usr": "s:16HubspotMobileSDK0A11ConfigErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotConfigError",
+                "printedName": "HubspotMobileSDK.HubspotConfigError",
+                "usr": "s:16HubspotMobileSDK0A11ConfigErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO9hashValueSivp",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO9hashValueSivp",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A11ConfigErrorO9hashValueSivg",
+                "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO9hashValueSivg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A11ConfigErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16HubspotMobileSDK0A11ConfigErrorO",
+        "mangledName": "$s16HubspotMobileSDK0A11ConfigErrorO",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HubspotConfig",
+        "printedName": "HubspotConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultConfigFileName",
+            "printedName": "defaultConfigFileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV07defaultD8FileNameSSvpZ",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV07defaultD8FileNameSSvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A6ConfigV07defaultD8FileNameSSvgZ",
+                "mangledName": "$s16HubspotMobileSDK0A6ConfigV07defaultD8FileNameSSvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotEnvironment",
+                "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV11environmentAA0A11EnvironmentOvp",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV11environmentAA0A11EnvironmentOvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotEnvironment",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                    "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A6ConfigV11environmentAA0A11EnvironmentOvg",
+                "mangledName": "$s16HubspotMobileSDK0A6ConfigV11environmentAA0A11EnvironmentOvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hublet",
+            "printedName": "hublet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV6hubletSSvp",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV6hubletSSvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A6ConfigV6hubletSSvg",
+                "mangledName": "$s16HubspotMobileSDK0A6ConfigV6hubletSSvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "portalId",
+            "printedName": "portalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV8portalIdSSvp",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV8portalIdSSvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A6ConfigV8portalIdSSvg",
+                "mangledName": "$s16HubspotMobileSDK0A6ConfigV8portalIdSSvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultChatFlow",
+            "printedName": "defaultChatFlow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV15defaultChatFlowSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV15defaultChatFlowSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A6ConfigV15defaultChatFlowSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A6ConfigV15defaultChatFlowSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotConfig",
+                "printedName": "HubspotMobileSDK.HubspotConfig",
+                "usr": "s:16HubspotMobileSDK0A6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A6ConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16HubspotMobileSDK0A6ConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HubspotMobileSDK0A6ConfigV",
+        "mangledName": "$s16HubspotMobileSDK0A6ConfigV",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationCenter",
+        "printedName": "NotificationCenter",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HubspotManager",
+        "printedName": "HubspotManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotManager",
+                "printedName": "HubspotMobileSDK.HubspotManager",
+                "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC6sharedACvpZ",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC6sharedACvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotManager",
+                    "printedName": "HubspotMobileSDK.HubspotManager",
+                    "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC6sharedACvgZ",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC6sharedACvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hublet",
+            "printedName": "hublet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC6hubletSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC6hubletSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC6hubletSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC6hubletSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "portalId",
+            "printedName": "portalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC8portalIdSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC8portalIdSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC8portalIdSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC8portalIdSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultChatFlow",
+            "printedName": "defaultChatFlow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC15defaultChatFlowSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC15defaultChatFlowSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC15defaultChatFlowSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC15defaultChatFlowSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotEnvironment",
+                "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC11environmentAA0A11EnvironmentOvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC11environmentAA0A11EnvironmentOvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotEnvironment",
+                    "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                    "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC11environmentAA0A11EnvironmentOvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC11environmentAA0A11EnvironmentOvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userIdentityToken",
+            "printedName": "userIdentityToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC17userIdentityTokenSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC17userIdentityTokenSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC17userIdentityTokenSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC17userIdentityTokenSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userEmailAddress",
+            "printedName": "userEmailAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC16userEmailAddressSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC16userEmailAddressSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC16userEmailAddressSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC16userEmailAddressSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushToken",
+            "printedName": "pushToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC9pushToken10Foundation4DataVSgvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC9pushToken10Foundation4DataVSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC9pushToken10Foundation4DataVSgvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC9pushToken10Foundation4DataVSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chatProperties",
+            "printedName": "chatProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC14chatPropertiesSDyS2SGvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC14chatPropertiesSDyS2SGvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC14chatPropertiesSDyS2SGvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC14chatPropertiesSDyS2SGvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newMessageCallback",
+            "printedName": "newMessageCallback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.PushNotificationChatData) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationChatData",
+                    "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                    "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(HubspotMobileSDK.PushNotificationChatData) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushNotificationChatData",
+                        "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                        "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(HubspotMobileSDK.PushNotificationChatData) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushNotificationChatData",
+                        "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                        "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvs",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvs",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvM",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC18newMessageCallbackyyAA24PushNotificationChatDataVcvM",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newMessage",
+            "printedName": "newMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<HubspotMobileSDK.PushNotificationChatData, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationChatData",
+                    "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                    "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC10newMessage7Combine18PassthroughSubjectCyAA24PushNotificationChatDataVs5NeverOGvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC10newMessage7Combine18PassthroughSubjectCyAA24PushNotificationChatDataVs5NeverOGvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<HubspotMobileSDK.PushNotificationChatData, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushNotificationChatData",
+                        "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                        "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC10newMessage7Combine18PassthroughSubjectCyAA24PushNotificationChatDataVs5NeverOGvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC10newMessage7Combine18PassthroughSubjectCyAA24PushNotificationChatDataVs5NeverOGvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "os.Logger",
+                "usr": "s:2os6LoggerV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvp",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "os.Logger",
+                    "usr": "s:2os6LoggerV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvg",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "os.Logger",
+                    "usr": "s:2os6LoggerV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvs",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvs",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvM",
+                "mangledName": "$s16HubspotMobileSDK0A7ManagerC6logger2os6LoggerVvM",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(portalId:hublet:defaultChatFlow:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotEnvironment",
+                "printedName": "HubspotMobileSDK.HubspotEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:16HubspotMobileSDK0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC9configure8portalId6hublet15defaultChatFlow11environmentySS_S2SSgAA0A11EnvironmentOtFZ",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC9configure8portalId6hublet15defaultChatFlow11environmentySS_S2SSgAA0A11EnvironmentOtFZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC9configureyyKFZ",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC9configureyyKFZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC9configureyyKF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC9configureyyKF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableLogging",
+            "printedName": "disableLogging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC14disableLoggingyyF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC14disableLoggingyyF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableLogging",
+            "printedName": "enableLogging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC13enableLoggingyyF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC13enableLoggingyyF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushToken",
+            "printedName": "setPushToken(apnsPushToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC12setPushToken04apnsfG0y10Foundation4DataV_tF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC12setPushToken04apnsfG0y10Foundation4DataV_tF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserIdentity",
+            "printedName": "setUserIdentity(identityToken:email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC15setUserIdentity13identityToken5emailySS_SStF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC15setUserIdentity13identityToken5emailySS_SStF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setChatProperties",
+            "printedName": "setChatProperties(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC17setChatProperties4dataySDyS2SG_tF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC17setChatProperties4dataySDyS2SG_tF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearUserData",
+            "printedName": "clearUserData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC13clearUserDatayyF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC13clearUserDatayyF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "newMessages",
+            "printedName": "newMessages()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<HubspotMobileSDK.PushNotificationChatData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationChatData",
+                    "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                    "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                  }
+                ],
+                "usr": "s:ScS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC11newMessagesScSyAA24PushNotificationChatDataVGyF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC11newMessagesScSyAA24PushNotificationChatDataVGyF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configurePushMessaging",
+            "printedName": "configurePushMessaging(promptForNotificationPermissions:allowProvisionalNotifications:newMessageCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((HubspotMobileSDK.PushNotificationChatData) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(HubspotMobileSDK.PushNotificationChatData) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushNotificationChatData",
+                        "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                        "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC22configurePushMessaging32promptForNotificationPermissions29allowProvisionalNotifications18newMessageCallbackySb_SbyAA0fJ8ChatDataVcSgtF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC22configurePushMessaging32promptForNotificationPermissions29allowProvisionalNotifications18newMessageCallbackySb_SbyAA0fJ8ChatDataVcSgtF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isHubspotNotification",
+            "printedName": "isHubspotNotification(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC02isA12Notification12notificationSbSo14UNNotificationC_tF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC02isA12Notification12notificationSbSo14UNNotificationC_tF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isHubspotNotification",
+            "printedName": "isHubspotNotification(notificationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC02isA12Notification16notificationDataSbSDys11AnyHashableVypG_tF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC02isA12Notification16notificationDataSbSDys11AnyHashableVypG_tF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@HubspotMobileSDK@objc(cs)HubspotManager(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserfG0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "HubspotMobileSDK",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@HubspotMobileSDK@objc(cs)HubspotManager(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC22userNotificationCenter_11willPresent21withCompletionHandlerySo06UNUserfG0C_So14UNNotificationCySo0N19PresentationOptionsVctF",
+            "moduleName": "HubspotMobileSDK",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "aquireUserIdentityToken",
+            "printedName": "aquireUserIdentityToken(accessToken:email:firstName:lastName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HubspotMobileSDK0A7ManagerC23aquireUserIdentityToken06accessH05email9firstName04lastL0S2S_S3StYaKF",
+            "mangledName": "$s16HubspotMobileSDK0A7ManagerC23aquireUserIdentityToken06accessH05email9firstName04lastL0S2S_S3StYaKF",
+            "moduleName": "HubspotMobileSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager",
+        "mangledName": "$s16HubspotMobileSDK0A7ManagerC",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChatPropertyKey",
+        "printedName": "ChatPropertyKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cameraPermissions",
+            "printedName": "cameraPermissions",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO17cameraPermissionsyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO17cameraPermissionsyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "photoPermissions",
+            "printedName": "photoPermissions",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO16photoPermissionsyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO16photoPermissionsyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationPermissions",
+            "printedName": "notificationPermissions",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO23notificationPermissionsyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO23notificationPermissionsyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationPermissions",
+            "printedName": "locationPermissions",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO19locationPermissionsyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO19locationPermissionsyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO8locationyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO8locationyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushToken",
+            "printedName": "pushToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO9pushTokenyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO9pushTokenyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO11deviceModelyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO11deviceModelyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO8platformyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO8platformyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "operatingSystemVersion",
+            "printedName": "operatingSystemVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO22operatingSystemVersionyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO22operatingSystemVersionyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO10appVersionyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO10appVersionyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceOrientation",
+            "printedName": "deviceOrientation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO17deviceOrientationyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO17deviceOrientationyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "screenSize",
+            "printedName": "screenSize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO10screenSizeyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO10screenSizeyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "screenResolution",
+            "printedName": "screenResolution",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO16screenResolutionyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO16screenResolutionyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryLevel",
+            "printedName": "batteryLevel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO12batteryLevelyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO12batteryLevelyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryState",
+            "printedName": "batteryState",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HubspotMobileSDK.ChatPropertyKey.Type) -> HubspotMobileSDK.ChatPropertyKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatPropertyKey",
+                        "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO12batteryStateyA2CmF",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO12batteryStateyA2CmF",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.ChatPropertyKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatPropertyKey",
+                    "printedName": "HubspotMobileSDK.ChatPropertyKey",
+                    "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO8rawValueACSgSS_tcfc",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO8rawValueSSvp",
+            "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO8rawValueSSvp",
+            "moduleName": "HubspotMobileSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO8rawValueSSvg",
+                "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO8rawValueSSvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16HubspotMobileSDK15ChatPropertyKeyO",
+        "mangledName": "$s16HubspotMobileSDK15ChatPropertyKeyO",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushNotificationChatData",
+        "printedName": "PushNotificationChatData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "portalIdKey",
+            "printedName": "portalIdKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV11portalIdKeySSvpZ",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV11portalIdKeySSvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV11portalIdKeySSvgZ",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV11portalIdKeySSvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chatflowIdKey",
+            "printedName": "chatflowIdKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV13chatflowIdKeySSvpZ",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV13chatflowIdKeySSvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV13chatflowIdKeySSvgZ",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV13chatflowIdKeySSvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "threadIdKey",
+            "printedName": "threadIdKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV11threadIdKeySSvpZ",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV11threadIdKeySSvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV11threadIdKeySSvgZ",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV11threadIdKeySSvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chatflowKey",
+            "printedName": "chatflowKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV11chatflowKeySSvpZ",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV11chatflowKeySSvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV11chatflowKeySSvgZ",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV11chatflowKeySSvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "portalId",
+            "printedName": "portalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV8portalIdSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV8portalIdSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV8portalIdSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV8portalIdSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chatflowId",
+            "printedName": "chatflowId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV10chatflowIdSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV10chatflowIdSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV10chatflowIdSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV10chatflowIdSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "threadId",
+            "printedName": "threadId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV8threadIdSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV8threadIdSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV8threadIdSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV8threadIdSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chatflow",
+            "printedName": "chatflow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV8chatflowSSSgvp",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV8chatflowSSSgvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV8chatflowSSSgvg",
+                "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV8chatflowSSSgvg",
+                "moduleName": "HubspotMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.PushNotificationChatData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationChatData",
+                    "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                    "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV12notificationACSgSo14UNNotificationC_tcfc",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV12notificationACSgSo14UNNotificationC_tcfc",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(notificationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.PushNotificationChatData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationChatData",
+                    "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                    "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV012notificationG0ACSgSDys11AnyHashableVypG_tcfc",
+            "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV012notificationG0ACSgSDys11AnyHashableVypG_tcfc",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV",
+        "mangledName": "$s16HubspotMobileSDK24PushNotificationChatDataV",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FloatingActionButton",
+        "printedName": "FloatingActionButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(manager:chatFlow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FloatingActionButton",
+                "printedName": "HubspotMobileSDK.FloatingActionButton",
+                "usr": "s:16HubspotMobileSDK20FloatingActionButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.HubspotManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotManager",
+                    "printedName": "HubspotMobileSDK.HubspotManager",
+                    "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK20FloatingActionButtonV7manager8chatFlowAcA0A7ManagerCSg_SSSgtcfc",
+            "mangledName": "$s16HubspotMobileSDK20FloatingActionButtonV7manager8chatFlowAcA0A7ManagerCSg_SSSgtcfc",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK20FloatingActionButtonV4bodyQrvp",
+            "mangledName": "$s16HubspotMobileSDK20FloatingActionButtonV4bodyQrvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK20FloatingActionButtonV4bodyQrvg",
+                "mangledName": "$s16HubspotMobileSDK20FloatingActionButtonV4bodyQrvg",
+                "moduleName": "HubspotMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HubspotMobileSDK20FloatingActionButtonV",
+        "mangledName": "$s16HubspotMobileSDK20FloatingActionButtonV",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TextChatButton",
+        "printedName": "TextChatButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:manager:chatFlow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextChatButton",
+                "printedName": "HubspotMobileSDK.TextChatButton",
+                "usr": "s:16HubspotMobileSDK14TextChatButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.LocalizedStringKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalizedStringKey",
+                    "printedName": "SwiftUI.LocalizedStringKey",
+                    "usr": "s:7SwiftUI18LocalizedStringKeyV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.HubspotManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotManager",
+                    "printedName": "HubspotMobileSDK.HubspotManager",
+                    "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK14TextChatButtonV4text7manager8chatFlowAC7SwiftUI18LocalizedStringKeyVSg_AA0A7ManagerCSgSSSgtcfc",
+            "mangledName": "$s16HubspotMobileSDK14TextChatButtonV4text7manager8chatFlowAC7SwiftUI18LocalizedStringKeyVSg_AA0A7ManagerCSgSSSgtcfc",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK14TextChatButtonV4bodyQrvp",
+            "mangledName": "$s16HubspotMobileSDK14TextChatButtonV4bodyQrvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK14TextChatButtonV4bodyQrvg",
+                "mangledName": "$s16HubspotMobileSDK14TextChatButtonV4bodyQrvg",
+                "moduleName": "HubspotMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HubspotMobileSDK14TextChatButtonV",
+        "mangledName": "$s16HubspotMobileSDK14TextChatButtonV",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HubspotChatView",
+        "printedName": "HubspotChatView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(manager:pushData:chatFlow:dismissChat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HubspotChatView",
+                "printedName": "HubspotMobileSDK.HubspotChatView",
+                "usr": "s:16HubspotMobileSDK0A8ChatViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.HubspotManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotManager",
+                    "printedName": "HubspotMobileSDK.HubspotManager",
+                    "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.PushNotificationChatData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushNotificationChatData",
+                    "printedName": "HubspotMobileSDK.PushNotificationChatData",
+                    "usr": "s:16HubspotMobileSDK24PushNotificationChatDataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HubspotMobileSDK0A8ChatViewV7manager8pushData8chatFlow07dismissD0AcA0A7ManagerCSg_AA016PushNotificationdH0VSgSSSgyycSgtcfc",
+            "mangledName": "$s16HubspotMobileSDK0A8ChatViewV7manager8pushData8chatFlow07dismissD0AcA0A7ManagerCSg_AA016PushNotificationdH0VSgSSSgyycSgtcfc",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HubspotMobileSDK0A8ChatViewV4bodyQrvp",
+            "mangledName": "$s16HubspotMobileSDK0A8ChatViewV4bodyQrvp",
+            "moduleName": "HubspotMobileSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HubspotMobileSDK0A8ChatViewV4bodyQrvg",
+                "mangledName": "$s16HubspotMobileSDK0A8ChatViewV4bodyQrvg",
+                "moduleName": "HubspotMobileSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HubspotMobileSDK0A8ChatViewV",
+        "mangledName": "$s16HubspotMobileSDK0A8ChatViewV",
+        "moduleName": "HubspotMobileSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Image",
+        "printedName": "Image",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hubspotChat",
+            "printedName": "hubspotChat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ImageV16HubspotMobileSDKE11hubspotChatACvpZ",
+            "mangledName": "$s7SwiftUI5ImageV16HubspotMobileSDKE11hubspotChatACvpZ",
+            "moduleName": "HubspotMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ImageV16HubspotMobileSDKE11hubspotChatACvgZ",
+                "mangledName": "$s7SwiftUI5ImageV16HubspotMobileSDKE11hubspotChatACvgZ",
+                "moduleName": "HubspotMobileSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI5ImageV",
+        "mangledName": "$s7SwiftUI5ImageV",
+        "moduleName": "SwiftUICore",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "overlayHubspotFloatingActionButton",
+            "printedName": "overlayHubspotFloatingActionButton(manager:chatFlow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HubspotMobileSDK.HubspotManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubspotManager",
+                    "printedName": "HubspotMobileSDK.HubspotManager",
+                    "usr": "c:@M@HubspotMobileSDK@objc(cs)HubspotManager"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP16HubspotMobileSDKE07overlayD20FloatingActionButton7manager8chatFlowQrAD0D7ManagerCSg_SSSgtF",
+            "mangledName": "$s7SwiftUI4ViewP16HubspotMobileSDKE07overlayD20FloatingActionButton7manager8chatFlowQrAD0D7ManagerCSg_SSSgtF",
+            "moduleName": "HubspotMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 35,
+      "value": "\"HubspotMobileSDK_HubspotMobileSDK\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 977,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1656,
+      "length": 63,
+      "value": "\"unable to find bundle named HubspotMobileSDK_HubspotMobileSDK\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/API\/APIModels.swift",
+      "kind": "StringLiteral",
+      "offset": 985,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 5,
+      "value": "\"na1\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 4506,
+      "length": 20,
+      "value": "\"Hubspot-Info.plist\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "kind": "Array",
+      "offset": 1412,
+      "length": 29,
+      "value": "[\"hubspotutk\", \"messagesUtk\"]"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "kind": "Dictionary",
+      "offset": 3183,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 20,
+      "value": "\"camera_permissions\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 27,
+      "value": "\"photo_library_permissions\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1695,
+      "length": 26,
+      "value": "\"notification_permissions\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
+      "length": 22,
+      "value": "\"location_permissions\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 12,
+      "value": "\"push_token\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 2686,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3163,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3453,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3693,
+      "length": 20,
+      "value": "\"device_orientation\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 3912,
+      "length": 13,
+      "value": "\"screen_size\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 4136,
+      "length": 19,
+      "value": "\"screen_resolution\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 4373,
+      "length": 15,
+      "value": "\"battery_level\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 4677,
+      "length": 15,
+      "value": "\"battery_state\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 12,
+      "value": "\"hsPortalId\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
+      "length": 14,
+      "value": "\"hsChatflowId\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
+      "length": 12,
+      "value": "\"hsThreadId\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 17,
+      "value": "\"hsChatflowParam\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/FloatingActionButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 7871,
+      "length": 24,
+      "value": "\"HubspotMobileSDK\/1.0.7\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 13560,
+      "length": 11,
+      "value": "\"nativeApp\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 13603,
+      "length": 18,
+      "value": "\"closeChatHandler\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 25106,
+      "length": 21,
+      "value": "\"Failed to load chat\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 25142,
+      "length": 15,
+      "value": "\"network.slash\""
+    },
+    {
+      "filePath": "\/var\/folders\/2f\/tzrntt2s2zjfg6l_klsqm1z40000gn\/T\/tmp.PXjhkFUV7b\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 17,
+      "value": "\"GenericChatIcon\""
+    }
+  ]
+}

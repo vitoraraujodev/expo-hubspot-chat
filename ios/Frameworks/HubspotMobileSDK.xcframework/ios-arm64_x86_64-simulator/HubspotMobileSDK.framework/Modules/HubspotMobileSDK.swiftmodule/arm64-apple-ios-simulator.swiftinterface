@@ -1,0 +1,194 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature RegionBasedIsolation -enable-experimental-feature DebugDescriptionMacro -module-name HubspotMobileSDK -package-name mobile_chat_sdk_ios
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import NotificationCenter
+import OSLog
+import Swift
+import SwiftUI
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum HubspotEnvironment : Swift.String, Swift.Codable, Swift.CustomStringConvertible, Swift.Sendable {
+  case qa
+  case production
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HubspotConfigError : Foundation.LocalizedError, Swift.Sendable {
+  case missingConfiguration
+  case missingChatFlow
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var failureReason: Swift.String? {
+    get
+  }
+  public static func == (a: HubspotMobileSDK.HubspotConfigError, b: HubspotMobileSDK.HubspotConfigError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct HubspotConfig : Swift.Codable, Swift.Sendable {
+  public static let defaultConfigFileName: Swift.String
+  public let environment: HubspotMobileSDK.HubspotEnvironment
+  public let hublet: Swift.String
+  public let portalId: Swift.String
+  public let defaultChatFlow: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension HubspotMobileSDK.HubspotManager {
+  @_Concurrency.MainActor public func newMessages() -> _Concurrency.AsyncStream<HubspotMobileSDK.PushNotificationChatData>
+  @_Concurrency.MainActor public func configurePushMessaging(promptForNotificationPermissions: Swift.Bool, allowProvisionalNotifications: Swift.Bool, newMessageCallback: ((HubspotMobileSDK.PushNotificationChatData) -> Swift.Void)? = nil)
+}
+extension HubspotMobileSDK.HubspotManager : UserNotifications.UNUserNotificationCenterDelegate {
+  nonisolated public func isHubspotNotification(notification: UserNotifications.UNNotification) -> Swift.Bool
+  nonisolated public func isHubspotNotification(notificationData: [Swift.AnyHashable : Any]) -> Swift.Bool
+  @objc nonisolated dynamic public func userNotificationCenter(_: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc nonisolated dynamic public func userNotificationCenter(_: UserNotifications.UNUserNotificationCenter, willPresent _: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class HubspotManager : ObjectiveC.NSObject, Combine.ObservableObject {
+  @_Concurrency.MainActor public static let shared: HubspotMobileSDK.HubspotManager
+  @_Concurrency.MainActor public var hublet: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public var portalId: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public var defaultChatFlow: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public var environment: HubspotMobileSDK.HubspotEnvironment {
+    get
+  }
+  @_Concurrency.MainActor public var userIdentityToken: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public var userEmailAddress: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public var pushToken: Foundation.Data? {
+    get
+  }
+  @_Concurrency.MainActor public var chatProperties: [Swift.String : Swift.String] {
+    get
+  }
+  @_Concurrency.MainActor public var newMessageCallback: (HubspotMobileSDK.PushNotificationChatData) -> Swift.Void
+  @_Concurrency.MainActor public var newMessage: Combine.PassthroughSubject<HubspotMobileSDK.PushNotificationChatData, Swift.Never> {
+    get
+  }
+  @_Concurrency.MainActor public var logger: os.Logger {
+    get
+    set
+  }
+  @_Concurrency.MainActor public static func configure(portalId: Swift.String, hublet: Swift.String, defaultChatFlow: Swift.String?, environment: HubspotMobileSDK.HubspotEnvironment = .production)
+  @_Concurrency.MainActor public static func configure() throws
+  @_Concurrency.MainActor public func configure() throws
+  @_Concurrency.MainActor public func disableLogging()
+  @_Concurrency.MainActor public func enableLogging()
+  @_Concurrency.MainActor public func setPushToken(apnsPushToken: Foundation.Data)
+  @_Concurrency.MainActor public func setUserIdentity(identityToken: Swift.String, email: Swift.String)
+  @_Concurrency.MainActor public func setChatProperties(data: [Swift.String : Swift.String])
+  @_Concurrency.MainActor public func clearUserData()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension SwiftUICore.Image {
+  public static var hubspotChat: SwiftUICore.Image {
+    get
+  }
+}
+extension HubspotMobileSDK.HubspotManager {
+  @available(*, deprecated, message: "This is for development only and may be removed - acquiring an access token should be done as part of your products server infrastructure")
+  @_Concurrency.MainActor public func aquireUserIdentityToken(accessToken: Swift.String, email: Swift.String, firstName: Swift.String, lastName: Swift.String) async throws -> Swift.String
+}
+public enum ChatPropertyKey : Swift.String, Swift.Sendable {
+  case cameraPermissions
+  case photoPermissions
+  case notificationPermissions
+  case locationPermissions
+  case location
+  case pushToken
+  case deviceModel
+  case platform
+  case operatingSystemVersion
+  case appVersion
+  case deviceOrientation
+  case screenSize
+  case screenResolution
+  case batteryLevel
+  case batteryState
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PushNotificationChatData : Swift.Sendable {
+  public static let portalIdKey: Swift.String
+  public static let chatflowIdKey: Swift.String
+  public static let threadIdKey: Swift.String
+  public static let chatflowKey: Swift.String
+  public let portalId: Swift.String?
+  public let chatflowId: Swift.String?
+  public let threadId: Swift.String?
+  public let chatflow: Swift.String?
+  public init?(notification: UserNotifications.UNNotification)
+  public init?(notificationData: [Swift.AnyHashable : Any])
+}
+@_Concurrency.MainActor @preconcurrency public struct FloatingActionButton : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(manager: HubspotMobileSDK.HubspotManager? = nil, chatFlow: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16HubspotMobileSDK20FloatingActionButtonV4bodyQrvp", 0) __
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func overlayHubspotFloatingActionButton(manager: HubspotMobileSDK.HubspotManager? = nil, chatFlow: Swift.String? = nil) -> some SwiftUICore.View
+  
+}
+@_Concurrency.MainActor @preconcurrency public struct TextChatButton : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(text: SwiftUICore.LocalizedStringKey? = nil, manager: HubspotMobileSDK.HubspotManager? = nil, chatFlow: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16HubspotMobileSDK14TextChatButtonV4bodyQrvp", 0) __
+}
+
+@_Concurrency.MainActor @preconcurrency public struct HubspotChatView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(manager: HubspotMobileSDK.HubspotManager? = nil, pushData: HubspotMobileSDK.PushNotificationChatData? = nil, chatFlow: Swift.String? = nil, dismissChat: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16HubspotMobileSDK0A8ChatViewV4bodyQrvp", 0) __
+}
+
+extension HubspotMobileSDK.HubspotEnvironment : Swift.Equatable {}
+extension HubspotMobileSDK.HubspotEnvironment : Swift.Hashable {}
+extension HubspotMobileSDK.HubspotEnvironment : Swift.RawRepresentable {}
+extension HubspotMobileSDK.HubspotConfigError : Swift.Equatable {}
+extension HubspotMobileSDK.HubspotConfigError : Swift.Hashable {}
+extension HubspotMobileSDK.HubspotManager : Swift.Sendable {}
+extension HubspotMobileSDK.ChatPropertyKey : Swift.Equatable {}
+extension HubspotMobileSDK.ChatPropertyKey : Swift.Hashable {}
+extension HubspotMobileSDK.ChatPropertyKey : Swift.RawRepresentable {}
+extension HubspotMobileSDK.FloatingActionButton : Swift.Sendable {}
+extension HubspotMobileSDK.TextChatButton : Swift.Sendable {}
+extension HubspotMobileSDK.HubspotChatView : Swift.Sendable {}

@@ -1,0 +1,4 @@
+framework module HubspotMobileSDK {
+  header "HubspotMobileSDK-Swift.h"
+  requires objc
+}

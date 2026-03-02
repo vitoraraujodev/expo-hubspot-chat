@@ -1,0 +1,54 @@
+{
+  "name": "expo-hubspot-chat",
+  "version": "0.1.0",
+  "description": "Expo module for HubSpot Mobile Chat SDK integration on iOS and Android",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "source": "src/index.ts",
+  "license": "MIT",
+  "homepage": "https://github.com/vitoraraujodev/expo-hubspot-chat#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitoraraujodev/expo-hubspot-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitoraraujodev/expo-hubspot-chat/issues"
+  },
+  "author": "Vitor Araujo <https://github.com/vitoraraujodev>",
+  "keywords": [
+    "expo",
+    "hubspot",
+    "chat",
+    "react-native",
+    "expo-module",
+    "live-chat",
+    "customer-support"
+  ],
+  "files": [
+    "build/",
+    "src/",
+    "ios/",
+    "android/",
+    "plugin/",
+    "expo-module.config.json"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly"
+  },
+  "peerDependencies": {
+    "expo": ">=51.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.74.0"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^4.0.0",
+    "expo-modules-core": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
