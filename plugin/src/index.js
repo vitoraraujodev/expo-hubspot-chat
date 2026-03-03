@@ -148,13 +148,24 @@ function withHubspotAndroidPackaging(config) {
     const packaging = `
     packaging {
         resources {
-            excludes += ['META-INF/versions/9/OSGI-INF/MANIFEST.MF']
+            excludes += [
+                'META-INF/versions/9/OSGI-INF/MANIFEST.MF',
+                'META-INF/DEPENDENCIES',
+                'META-INF/LICENSE',
+                'META-INF/LICENSE.txt',
+                'META-INF/license.txt',
+                'META-INF/NOTICE',
+                'META-INF/NOTICE.txt',
+                'META-INF/notice.txt',
+                'META-INF/ASL2.0',
+                'META-INF/*.kotlin_module'
+            ]
         }
     }`;
 
     if (
       config.modResults.contents.includes(
-        'META-INF/versions/9/OSGI-INF/MANIFEST.MF',
+        "excludes += ['META-INF/versions/9/OSGI-INF/MANIFEST.MF'",
       )
     ) {
       return config;

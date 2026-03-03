@@ -18,6 +18,5 @@ android {
 
 dependencies {
   implementation "com.hubspot.mobilechatsdk:mobile-chat-sdk-android:1.0.8"
-  implementation platform("com.google.firebase:firebase-bom:33.7.0")
-  implementation "com.google.firebase:firebase-messaging"
+  compileOnly "com.google.firebase:firebase-messaging"
 }
