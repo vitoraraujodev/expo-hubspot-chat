@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 ![platforms: ios | android](https://img.shields.io/badge/platforms-iOS%20%7C%20Android-lightgrey.svg)
 
-An [Expo module](https://docs.expo.dev/modules/overview/) that integrates the [HubSpot Mobile Chat SDK](https://developers.hubspot.com/docs/guides/cms/hubspot-mobile-sdk) into React Native apps. Provides a native chat experience on both iOS and Android with full support for user identification, push notifications, and chat lifecycle events.
+An [Expo module](https://docs.expo.dev/modules/overview/) that integrates the HubSpot Mobile Chat SDK ([iOS](https://developers.hubspot.com/docs/api-reference/conversations-chat-configuration/mobile-chat-sdk/ios) | [Android](https://developers.hubspot.com/docs/api-reference/conversations-chat-configuration/mobile-chat-sdk/android)) into React Native apps. Provides a native chat experience on both iOS and Android with full support for user identification, push notifications, and chat lifecycle events.
 
 ## Table of Contents
 

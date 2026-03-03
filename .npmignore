@@ -1,0 +1,4 @@
+android/build/
+build/
+plugin/build/
+node_modules/
