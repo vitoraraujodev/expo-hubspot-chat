@@ -27,6 +27,8 @@ An [Expo module](https://docs.expo.dev/modules/overview/) that integrates the Hu
 - Configurable presentation style on iOS
 - Expo config plugin for zero-manual-setup native configuration
 
+> **Note:** This module is in early release and may evolve. Feedback and issues are welcome.
+
 ## Requirements
 
 | Requirement    | Version |
@@ -116,8 +118,6 @@ The config plugin automates native project configuration at prebuild time:
 - Registers `HubspotWebActivity` in `AndroidManifest.xml`
 - Registers `HubspotChatMessagingService` for Firebase Cloud Messaging
 - Adds packaging exclusion for `META-INF/versions/9/OSGI-INF/MANIFEST.MF` conflicts
-
-> **Note:** This module is in early release and may evolve. Feedback and issues are welcome.
 
 ## Usage
 
